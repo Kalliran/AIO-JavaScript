@@ -1,3 +1,7 @@
+# JavaScript stuff
+
+Bolstering some learned fundamentals. Basically a resource of my notes and stuff I've learned.
+
 # Gamelet
 
 A starter program for writing JavaScript games
