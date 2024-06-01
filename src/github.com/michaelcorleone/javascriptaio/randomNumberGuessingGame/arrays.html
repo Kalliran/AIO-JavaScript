@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arrays</title>
+  </head>
+  <body>
+    <style>
+      body {
+        background-color: rgb(55, 55, 55);
+      }
+      li {
+        font-size: 20px;
+      }
+    </style>
+    <h1>What the fuck..</h1>
+    <h2>I need some damn:</h2>
+    <ul id="ingredients"></ul>
+    <script>
+      const ingredients = [
+        "eggs",
+        "milk",
+        "cheese",
+        "garlic",
+        "onion",
+        "kale",
+        "salt",
+        "pepper",
+      ];
+      let listItems = ingredients
+        .map((singleIngredient) => `<li>${singleIngredient}</li>`)
+        .join("");
+      document.getElementById("ingredients").innerHTML = listItems;
+    </script>
+  </body>
+</html>
