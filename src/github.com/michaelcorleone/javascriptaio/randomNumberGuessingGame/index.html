@@ -11,20 +11,6 @@
         background-color: rgb(55, 55, 55);
       }
     </style>
-
-    <div id="root"></div>
-
-    <script>
-      const house = {
-        sqft: 800,
-        bdRooms: 2,
-        bthRooms: 1,
-      };
-      let houseDetails = "<h2>Information about this house</h2>";
-      for (let prop in house) {
-        houseDetails = `${houseDetails}<br>${prop}:${house[prop]}<br>`;
-        document.getElementById("root").innerHTML = houseDetails;
-      }
-    </script>
+    <script src="script.js"></script>
   </body>
 </html>
